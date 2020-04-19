@@ -47,7 +47,7 @@ def get_data():
                 pyautogui.click(locations[i][0], locations[i][1])
                 time.sleep(1)
             else:
-                #for all the dialoug boxes the click along with data process is required.
+                #for all the dialog boxes the click and process the data.
                 pyautogui.click(locations[i][0], locations[i][1])
                 time.sleep(1)
                 pop_up_html_code =BeautifulSoup(browser.page_source, 'lxml')
