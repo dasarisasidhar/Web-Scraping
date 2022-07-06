@@ -4,6 +4,6 @@ requests==2.22.0
 beautifulsoup4==4.8.0
 selenium==3.141.0
 PyAutoGUI==0.9.50
-lxml==4.4.1
+lxml==4.9.1
 pandas
 
